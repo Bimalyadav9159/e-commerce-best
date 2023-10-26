@@ -1,0 +1,33 @@
+.App {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: auto;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+  background: yellow;
+}
+.navbar div {
+	margin-right: 17px;
+}
+.navbar ul {
+	display: flex;
+	gap: 15px;
+	list-style: none;
+}
+.sidebar {
+	float: left;
+	width: 200px;
+	border: 1px solid red;
+	background: red;
+	
+	height: 50vw;
+}
+.footer {
+	width: 100%;
+	float: left;
+	height: 200px;
+	background: green;
+}
